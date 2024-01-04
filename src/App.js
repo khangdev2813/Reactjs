@@ -1,20 +1,12 @@
-import logo from "./logo.svg";
+import iu from "./iu.jpg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Địt mẹ lồn Công</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={iu} className="App-logo" alt="logo" />
+        <p>Xoay nè</p>
       </header>
     </div>
   );
