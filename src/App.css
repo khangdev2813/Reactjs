@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+.player-music {
+  background-color: rgb(30, 41, 59) !important;
+  height: 6rem;
+  color: white !important;
+}
+
+.player-music svg {
+  color: white !important;
+}
+
+.rotate-animation {
+  animation: App-logo-spin infinite 20s linear;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
