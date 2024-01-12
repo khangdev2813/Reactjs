@@ -31,9 +31,12 @@ function ListSong() {
             <tr
               key={index}
               className={`
-              ${song.id === idSong && "bg-slate-600 text-cyan-300"} 
-              text-gray-500  bg-slate-800 h-12 hover:bg-slate-600 hover:text-cyan-300 cursor-pointer 
-              `}
+              ${
+                song.id === idSong
+                  ? "bg-slate-600 text-cyan-300"
+                  : " text-gray-500  bg-slate-800 h-12"
+              } 
+              hover:bg-slate-600 hover:text-cyan-300 cursor-pointer `}
               onClick={() => handlePlaySong(song.id)}
             >
               <td>{index + 1}</td>
